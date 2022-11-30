@@ -1,0 +1,54 @@
+:root{
+    background-color: bisque;
+}
+#screen {
+    display: flex;
+    justify-content: center;
+}
+
+.scr {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    text-align: center;
+    color: brown;
+    background-color: aqua;
+}
+
+.spandisplay {
+    display: inline-block;
+    font-size: 50px;
+    padding-top: 90px;
+
+}
+#content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttoncontainer{
+    display: inline-block;
+    margin-left: 455px;
+    margin-bottom: 20px;
+}
+#countdisplay{
+    color: red;
+    font-size: 50px;
+}
+#fresult{
+    color: red;
+    font-size: 80px;
+}
+#result{
+    color: darkblue;
+}
+.buttons {
+    background-color: lightcoral;
+    color: white;
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+}

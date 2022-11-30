@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ass3.css">
+    <title>ROCK ,PAPER , SCISSOR</title>
+</head>
+
+<body>
+    <h1 style="text-align: center">Rock, Paper, Scissors</h1>
+    <div id="screen">
+        <div id="playercontainer">
+            <h2 class="scr">PLAYER <br><span class="spandisplay" id="user"></span></h2>
+            <h3>Player : <span id="pcount">0</span></h3>
+        </div>
+        <div id="computercontainer">
+            <h2 class="scr">COMPUTER <br><span class="spandisplay" id="computer"></span></h2>
+            <h3>Computer : <span id="ccount">0</span></h3>
+        </div>
+    </div>
+
+    <div class="buttoncontainer">
+        <button class="buttons" id="rock">ROCK</button>
+        <button class="buttons" id="paper">PAPER</button>
+        <button class="buttons" id="scissors">SCISSORS</button>
+    </div>
+
+    <div id="content">
+        <div>
+            <input type="test" min="0" placeholder="count" onmouseleave="getcount()"><br>
+            <h2>count left : <span id="countdisplay"></span></h2>
+        </div>
+        <div>
+            <h1> FINal RESULT : <span id="fresult"></span></h2>
+            <h2>RESULT : <span id="result" style="padding-top:0 ;"></span></h2>
+        </div>
+    </div>
+
+    <script src="./assignment3.js"></script>
+</body>
+
+</html>
